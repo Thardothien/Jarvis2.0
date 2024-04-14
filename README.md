@@ -1,0 +1,1 @@
+Jarvis2.0 is the second attempt at my very own computer personal assistant in Python. The main difference Jarvis1.0 and Jarvis2.0 is that in Jarvis1.0, the only way for Jarvis to perform a specific function was to mention a specific keyword which is not ideal. Now in Jarvis2.0, I am making use of Gemini API, which is free, to find out what the user wants and what function to run.
