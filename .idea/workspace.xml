@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45528c5-8743-49a0-9aaf-d42b080debe4" name="Changes" comment="Adding .gitignore" />
+    <list default="true" id="d45528c5-8743-49a0-9aaf-d42b080debe4" name="Changes" comment=".icon File">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713274587478</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=".icon File">
+      <option name="closed" value="true" />
+      <created>1713275044222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713275044222</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,9 +205,9 @@
     <MESSAGE value="Updating functions.py" />
     <MESSAGE value=".icon Files for PyCharm" />
     <MESSAGE value="Time, Quit, Play music, Pause music and Skip song features added," />
-    <MESSAGE value=".icon File" />
     <MESSAGE value="Added translation and search functions." />
     <MESSAGE value="Adding .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding .gitignore" />
+    <MESSAGE value=".icon File" />
+    <option name="LAST_COMMIT_MESSAGE" value=".icon File" />
   </component>
 </project>
