@@ -8,6 +8,9 @@ import pyautogui
 import spotipy
 import subprocess
 from spotipy.oauth2 import SpotifyOAuth
+from selenium import webdriver
+import googletrans
+from googletrans import Translator
 
 
 # spotify api
@@ -25,6 +28,7 @@ user_name = spotifyObject.current_user()
 scope = 'user-read-playback-state user-modify-playback-state'
 auth_manager = SpotifyOAuth(client_id=clientID, client_secret=clientSecret, redirect_uri=redirect_uri, scope=scope)
 sp = spotipy.Spotify(auth_manager=auth_manager)
+
 
 def check_time():
     # Get the current UTC time
@@ -62,7 +66,7 @@ def play_track(song):
         subprocess.run(['spotify'])
         time.sleep(2)
         pyautogui.press('space')
-        time.sleep(1)
+        time.sleep(4)
         device_id = get_active_device_id()
         results = sp.search(q=song, type='track')
         track_id = results['tracks']['items'][0]['id']
@@ -70,11 +74,21 @@ def play_track(song):
             sp.transfer_playback(device_id=device_id, force_play=True)
             sp.start_playback(uris=['spotify:track:' + track_id])
 
-
-
 def get_active_device_id():
     devices = sp.devices()
     for device in devices['devices']:
         if device['is_active']:
             return device['id']
     return None
+
+def search(search_query):
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option("detach", True)
+    driver = webdriver.Chrome(options=options)
+    driver.maximize_window()
+    driver.get(f"https://www.google.com/search?q={search_query}")
+
+def translate(text, start_language, end_language):
+    translator = Translator()
+    translated = translator.translate(text, src=start_language, dest=end_language)
+    print(str(translated.text))
