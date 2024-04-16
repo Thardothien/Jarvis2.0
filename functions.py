@@ -11,12 +11,17 @@ from spotipy.oauth2 import SpotifyOAuth
 from selenium import webdriver
 import googletrans
 from googletrans import Translator
+import os
+from dotenv import load_dotenv
 
 
+# Load variables from .env file
+load_dotenv()
+
+username = os.getenv("username")
+clientID = os.getenv("clientID")
+clientSecret = os.getenv("clientSecret")
 # spotify api
-username = 'PurpL'
-clientID = '7afbeb9201ee4180abcc2b4c7d3690ce'
-clientSecret = '390f50c717e1482a85f1a6980179c5f8'
 redirect_uri = 'http://google.com/callback/'
 oauth_object = spotipy.SpotifyOAuth(clientID, clientSecret, redirect_uri)
 token_dict = oauth_object.get_access_token()
