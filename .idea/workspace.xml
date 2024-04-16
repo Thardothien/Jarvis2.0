@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45528c5-8743-49a0-9aaf-d42b080debe4" name="Changes" comment=".icon Files for PyCharm">
-      <change afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
+    <list default="true" id="d45528c5-8743-49a0-9aaf-d42b080debe4" name="Changes" comment=".icon File">
+      <change beforePath="$PROJECT_DIR$/.idea/Jarvis2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/gemini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Thardothien"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Thardothien&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -132,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713138912767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Time, Quit, Play music, Pause music and Skip song features added,">
+      <option name="closed" value="true" />
+      <created>1713198214152</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713198214152</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".icon File">
+      <option name="closed" value="true" />
+      <created>1713198241245</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713198241245</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +156,8 @@
     <MESSAGE value=".idea file for PyCharm" />
     <MESSAGE value="Updating functions.py" />
     <MESSAGE value=".icon Files for PyCharm" />
-    <option name="LAST_COMMIT_MESSAGE" value=".icon Files for PyCharm" />
+    <MESSAGE value="Time, Quit, Play music, Pause music and Skip song features added," />
+    <MESSAGE value=".icon File" />
+    <option name="LAST_COMMIT_MESSAGE" value=".icon File" />
   </component>
 </project>
