@@ -1,6 +1,4 @@
-# .gitignore
-
-# Ignore .env files
+# Ignore .cache and .env files
 /.env
 
 /.cache
